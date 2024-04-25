@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  color: #0d2a5d;
+  padding: 3rem 1rem;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.footer-column ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.footer-column ul li {
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  color: #003D7C;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  font-size: 22px; 
+}
+
+.social-icon:hover {
+  color: #00A5AE;
+}
+
+.build-your-world-btn {
+  margin-top: 10px;
+  background: linear-gradient(to right, #00A5AE, #003D7C);
+  color: #ffffff;
+  border: none;
+  margin-left: 50px; 
+  border-radius: 40px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.build-your-world-btn:hover {
+  background-color: #008fa1;
+}
+
+.footer-bottom {
+  margin-bottom: -2rem; 
+  font-size: 0.9rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-bottom p {
+  margin-bottom: 0; 
+}
+
+.footer-logo img {
+  max-width: 200px;
+  width: 100%; 
+}
+
+.vl {
+  border-left: 5px solid transparent;
+  background-image: linear-gradient(to bottom, #003D7C, #00A5AE, #003D7C);
+  background-size: 60px 100%;
+  height: 170px;
+}
+
+.line-footer-bottom {
+  max-width: 1200px;
+  border:none;
+  background-image: linear-gradient(to right, #00a5ae7f, #003D7C);
+  height: 2px;
+  margin-top: 1rem; 
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    flex: 0 0 50%; 
+    margin-bottom: 1rem; 
+  }
+
+  .build-your-world-btn {
+    margin-left: 20px; 
+  }
+
+  .footer-bottom {
+    flex-direction: column; 
+    text-align: center; 
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    flex: 0 0 100%;
+  }
+
+  .social-icons {
+    margin-top: 1rem;
+  }
+
+  .build-your-world-btn {
+    margin: 1rem auto; 
+  }
+
+  .footer-bottom {
+    margin-bottom: 1rem;
+  }
+
+  .vl {
+    margin: 1rem auto;
+    height: 100px;
+  }
+}

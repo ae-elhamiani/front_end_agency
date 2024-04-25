@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 4.375rem 1.25rem;
+  max-width: 1200px;
+  margin: -2rem auto;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  padding-top: 4.375rem;
+}
+
+.hero-content h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #003D7C;
+}
+
+.hero-content h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  background-image: linear-gradient(306.57deg, #003e7c, #00A5AE);
+  background-clip: text;
+  margin-bottom: 0.9375rem;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 4px);
+}
+
+.hero-content p {
+  color: #003D7C;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 1.875rem;
+}
+
+.build-your-world {
+  display: inline-block;
+  background: linear-gradient(to right, #00A5AE, #003D7C);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.build-your-world:hover {
+  background: linear-gradient(to right, #003D7C, #00A5AE);
+}
+
+.hero-image {
+  flex: 1;
+  padding-top: 4.375rem;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-offers-section {
+  padding: 5rem 1.25rem;
+  text-align: center;
+  background-color: #00b2bb1c;
+}
+
+.profile-offers-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+}
+
+.offer-card {
+  background-color: #00b2bb20;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.875rem;
+  width: 100%;
+  max-width: 261px;
+  text-align: center;
+}
+
+.offer-icon img {
+  margin-bottom: 1.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.offer-card h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.discover-offer {
+  display: inline-block;
+  background: linear-gradient(to right, #00A5AE, #003D7C);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.625rem 1.25rem;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.discover-offer:hover {
+  background-color: #138496;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-image {
+    padding-top: 0;
+    margin-top: 2rem;
+  }
+
+  .profile-offers-section {
+    padding: 3rem 1rem;
+  }
+
+  .offer-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    padding-top: 2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.875rem;
+  }
+
+  .offer-card {
+    padding: 1.25rem;
+  }
+}
+
+.test-image {
+  display: flex;
+  align-items: center;
+  padding: 5rem 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.test-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.agence-directe {
+  background-color: #ffffff;
+  padding: 3rem 1rem;
+}
+
+.agence-directe-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.agence-directe-image {
+  flex: 1;
+  margin-right: 2rem;
+  margin-left: -12%;
+}
+
+.agence-directe-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.agence-directe-content {
+  margin-top: -15rem;
+  flex: 1;
+  text-align: left;
+}
+
+.agence-directe-content h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.agence-directe-content h3 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.agence-directe-content p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.video-btn {
+  background: linear-gradient(to right, #00A5AE, #003D7C);
+  color: #ffffff;
+  display: flex;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5rem;
+}
+
+.play-video img {
+  max-width: 25px;
+  margin-left: 10px;
+  margin-bottom: -0.4rem;
+  margin-top: -0.1rem;
+}
+
+.video-btn:hover {
+  background-color: #008fa1;
+}
+
+.account-opening-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.account-opening-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  align-items: top;
+  color: #000;
+}
+
+.account-opening-container img {
+  min-width: 70px;
+  align-items: center;
+  max-height: 200px;
+  padding: 20px;
+}
+
+.account-opening-container .account-opening
+.account-opening-container .account-opening-details {
+  line-height: 1.5;
+  color: #000; 
+}
+
+@media (max-width: 768px) {
+  .account-opening-container {
+    flex-direction: column;
+  }
+
+  .account-opening-container h2 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;  
+  border-radius: 40px 70px;
+  justify-content: space-between;
+  background-color: rgb(0, 62, 124);
+  color: rgb(255, 255, 255);
+  background-image: url('../../../public/noise-image.png'); 
+  background-blend-mode: overlay;
+  padding: 1rem;
+}
+
+.feature-card {
+  flex: 1;
+  font-size: 14px;
+  border-radius: 30px 70px;
+  text-align: center;
+  background-color: rgb(0, 62, 124,7%);
+  backdrop-filter: blur(6px);
+
+  padding: 1rem;
+  border: 1px solid #00A5AE;
+  margin: 0.3rem;
+}
+
+.feature-card img {
+  width: 41px;
+  height: 33px;
+}

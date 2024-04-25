@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+  background-color: #003e7c21;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  font-weight: bold;
+  font-size: 0.875rem; 
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; 
+}
+
+.logo img {
+  max-width: 12.5rem; 
+  height: auto; 
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+.nav-menu li {
+  margin-right: 30px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  color: #00B1BB;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons .contact-us {
+  font-size: 0.75rem; 
+  margin-right: 35px;
+  padding: 0.5rem 1rem; 
+  border: 2px solid #00A5AE;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  background: #ffffff00;
+  color: #003D7C;
+}
+
+.buttons .contact-us:hover {
+  background-color: #e6f7ff; 
+}
+
+.buttons .my-request {
+  font-size: 0.75rem; 
+  padding: 0.625rem 1.25rem; 
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  background: linear-gradient(to right, #00A5AE, #003D7C);
+  color: #fff;
+  border: none;
+}
+
+.buttons .my-request:hover {
+  background: linear-gradient(to right, #008fa1, #002a5d); 
+}
+
+@media (max-width: 768px) {
+  .nav-menu li {
+    margin-right: 20px; 
+  }
+
+  .buttons .contact-us,
+  .buttons .my-request {
+    padding: 0.5rem 1rem;
+    margin-right: 15px;
+    font-size: 0.7rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .nav-menu {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .nav-menu li {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+
+  .buttons {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .buttons .contact-us,
+  .buttons .my-request {
+    margin-bottom: 10px; 
+    margin-right: 0; 
+  }
+}

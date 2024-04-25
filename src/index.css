@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Updated to use Montserrat */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Montserrat', monospace; /* Updated to use Montserrat, preserving monospace style */
+}
